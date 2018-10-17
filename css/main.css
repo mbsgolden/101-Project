@@ -1,0 +1,248 @@
+/****** BASE STYLES *******/
+
+body#home, body#second-page{
+font-family: 'Source Sans Pro', sans-serif;
+color: #2b2b2b;
+
+} /***This is color and font for the entire webpage***/
+
+/***** GRID - HOME PAGE *****/
+
+.full-width-home{
+  width: 100%;
+  text-align: center;
+}
+
+.half-width-home{
+  width: 50%;
+  float: left;
+}
+
+/***** BACKGROUND *****/
+
+body#home{
+  height: 800px;
+  background-image: url('../img/selfie.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding: 0;
+
+}
+
+/***** HEADER - HOME PAGE *****/
+
+h1#third-width-home{
+  font-family: 'Poiret One', cursive;
+  font-size: 80px;
+  font-weight: 700;
+  color: white;
+  border: 5px solid white;
+  padding: 5%;
+  margin-top: 50px;
+  margin-left: 60px;
+  text-align: center;
+  line-height: 45px;
+  width: 18%;
+
+
+}
+
+#header-styling{
+  font-size: 50px;
+  color: #004466;
+}
+
+
+nav {
+margin-top: 70px;
+margin-right: 60px;
+float: right;
+
+}
+
+nav ul li{
+    display: inline-block;
+
+}
+
+nav ul li a {
+    font-family: 'Poiret One', cursive;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 25px;
+    padding-left: 30px;
+
+}
+
+p.about-me{
+  font-family: 'Poiret One', cursive;
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  clear: both;
+  display: inline-block;
+  margin-top: 275px;
+  text-align: center;
+  padding: 0;
+}
+
+#size-change{
+font-size: 40px;
+}
+
+
+/****** GRID - SECOND PAGE ******/
+
+.full-width-work{
+  width: 100%;
+  height: 800px;
+  float: left;
+
+}
+
+.third-width-work{
+  width: 25%;
+  float: left;
+  text-align: center;
+  padding: 0;
+  margin-left: 85px;
+  margin-top: 35px;
+
+}
+
+/***** WORK SECTION - SECOND PAGE *****/
+
+header#work-section{
+  background-image: url('../img/beaufort-sea-image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  height: 850px;
+
+}
+
+h3{
+  color: #004466;
+  font-size: 40px;
+  width: 100%;
+
+}
+
+p.my-work{
+  font-size: 20px;
+  padding-top: 30px;
+  color: #004466;
+  text-align: center;
+
+}
+
+/***** ABOUT SECTION - SECOND PAGE *****/
+
+header#about-section{
+ background-color: #a3c2c2;
+ margin: 0 auto;
+ width: 100%;
+ height: 500px;
+
+
+}
+
+h1#about-header, h1#work-header{
+ font-family: 'Poiret One', cursive;
+ color: #004466;
+ font-size: 50px;
+ float: left;
+ padding-left: 60px;
+ font-weight: 700;
+}
+
+h1#about-header{
+  padding-top: 30px;
+}
+
+h1#work-header{
+  padding-top: 15px;
+}
+
+
+main#about-section{
+  background-color: #a3c2c2;
+  width: 100%;
+  height: 375px;
+  clear: both;
+}
+
+
+p#about-me{
+    font-size: 30px;
+    margin: 0 auto;
+    padding-top: 8px;
+    color: #004466;
+    padding-left: 60px;
+    float: left;
+
+}
+
+
+
+/***** FOOTER SECTION - SECTION PAGE *****/
+
+footer{
+  clear:both;
+  height:450px;
+}
+
+footer h2, footer h3{
+  font-family: 'Poiret One', cursive;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  font-color: #004466;
+  line-height: 12px;
+}
+
+
+footer h2{
+  padding-top: 30px;
+  padding-bottom: 35px;
+
+}
+
+
+h2#footer-phrase{
+font-family: 'Source Sans Pro', sans-serif;
+color: #004466;
+font-size: 50px;
+}
+
+
+.full-width-contact{
+  text-align: center;
+}
+
+ul{
+  padding-left: 10px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul li{
+  display: inline-block;
+  padding-left: 20px;
+}
+
+footer a {
+  font-family: 'Poiret One', cursive;
+  font-weight: 500;
+  color: #004466;
+  font-size: 40px;
+  text-decoration: none;
+
+
+
+}
